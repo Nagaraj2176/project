@@ -1,0 +1,139 @@
+
+/* .container{
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  height: 100vh;
+  margin-top: 65px;
+} */
+
+/* .main_content{
+  background-color: aquamarine;
+} */
+
+/* .sidebar_div{
+  background-color: rgb(24, 24, 64);
+  /* position: sticky;
+  top: 65px; */
+ 
+
+.sidebar_nav{
+  display: flex;
+  flex-direction: column;
+  
+  /* margin-top: -15px; */
+  
+  
+}
+
+.sidebar_nav ul{
+  margin: 0;
+  padding: 0;
+  /* display: flex;
+  flex-direction: column;
+  gap: 1px; */
+}
+
+.sidebar_nav ul li a{
+  /* background-color: antiquewhite; */
+  display: flex;
+  text-decoration: none;
+  height: 45px;
+  align-items: center;
+  font-size: 15px;
+  border-bottom: 1px solid rgb(170, 170, 170);
+}
+.sidebar_nav ul li a:hover{
+  background-color: rgb(37, 37, 84);
+}
+
+.sidebar_nav ul li{
+  list-style: none;
+}
+
+.sidebar_nav ul li button{
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  background-color: transparent;
+  border: none;
+  height: 45px;
+  align-items: center;
+  color: white;
+  border-bottom: 1px solid rgb(170, 170, 170);
+  width: 100%;
+  font-size: 15px;
+  padding-right: 15px;
+  
+}
+.sidebar_nav ul li button:hover{
+  background-color: rgb(37, 37, 84);
+}
+
+.sidebar_nav ul li button svg:first-child{
+  min-width: 25px;
+  padding-left: 10px;
+  /* padding-right: 20px; */
+}
+/* .sidebar_nav ul li button svg:last-child{
+  padding-left: 20px; */
+  /* padding-right: 10px;
+} */
+#filter_div{
+  padding-right: 85px;
+}
+
+.sidebar_nav ul li button svg{
+  transition: 0.3s linear;
+}
+
+.sidebar_nav ul li button div{
+  padding-right: 55px;
+  flex-grow: 1;
+  margin-left: 15px;
+}
+
+.submenu div li a{
+  padding-left: 65px;
+  margin-left: 12px;
+  margin-right: 12px;
+  height: 40px;
+  color: white;
+}
+
+
+.sidebar_nav ul li a svg{
+  flex-shrink: 0;
+  padding-left: 15px;
+  padding-right: 20px;
+}
+
+.sidebar_nav ul li a div{
+  color: white;
+}
+
+.sidebar_nav .submenu{
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: 0.4s ease-in-out;
+  >div{
+    overflow: hidden;
+  }
+
+}
+
+.sidebar_nav .submenu.show{
+  grid-template-rows: 1fr;
+}
+
+.rotate svg:last-child{
+  rotate: 180deg;
+}
+
+.sidebar_div.open{
+  width: 220px;
+  text-wrap: nowrap;
+  overflow: hidden;
+}
+
+.main_content.margin_maincontent{
+  margin-left: 175px;
+}

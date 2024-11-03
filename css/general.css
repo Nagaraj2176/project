@@ -1,0 +1,33 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  /* overflow: hidden; */
+  background-color: rgb(143, 143, 143);
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  /* grid: 100%; */
+  height: 92vh;
+  /* height: 100vh; */
+  /* height: 100%; */
+  margin-top: 88px; 
+  
+}
+
+.sidebar_div{
+  background-color: rgb(24, 24, 64);
+  /* position: sticky;
+  top: 65px; */
+  height: 100%;
+  transition: all .1s ease-in-out;
+}
+
+.main_content{
+  transition: all .1s ease-in-out;
+  overflow:auto;
+  margin: 5px;
+  background-color: rgb(242, 236, 233);
+}

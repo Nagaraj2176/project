@@ -1,0 +1,112 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('la.webp');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.login {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.3);
+    width: 300px;
+}
+
+form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.box input {
+    width: 100%;
+    padding: 10px;
+    padding-left: 35px;
+    background: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 14px;
+    outline: none;
+}
+
+.box span {
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    /* top: 50%;
+    left: 10px;
+    transform: translateY(-50%); */
+    font-size: 16px;
+    color: #888;
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.remember-forgot a {
+    color: #1685df;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.button {
+    width: 100%;
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #0063a5;
+}
+
+.Sign-up {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.Sign-up a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.Sign-up a:hover {
+    text-decoration: underline;
+}
